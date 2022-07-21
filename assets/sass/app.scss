@@ -1,16 +1,21 @@
+// Vendor Stylesheets
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400&family=Raleway:wght@100;300;500&display=swap");
+@import "~animate-scss/animate.scss";
+
+// Custom Stylesheets
 @import "abstracts/variables";
 @import "abstracts/mixins";
 @import "abstracts/functions";
 
-@import "base/reset";
 @import "base/typography";
+@import "base/reset";
 @import "base/animations";
 @import "base/utilities";
 @import "base/global";
 
-
 @import "layout/header";
 @import "layout/footer";
+@import "layout/navbar";
 
 @import "components/btn";
 

@@ -1,0 +1,48 @@
+.home-hero {
+  height: 75vh;
+  @include slideInDown($duration: 1.4s);
+
+  &__circle {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+
+    @include atLarge {
+      width: 50rem;
+      height: 50rem;
+      border-radius: 50rem;
+      background-color: $secondary;
+    }
+  }
+
+  &__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+  }
+
+  &__heading {
+    font-family: $header-font;
+    font-size: 5rem;
+    font-weight: 400;
+    color: $primary;
+    @include pulse($delay: 1.5s, $duration: 1.3s);
+
+    @include atLarge {
+      font-size: 15rem;
+    }
+  }
+
+  &__subheading {
+    font-family: $text-font;
+    font-weight: 300;
+    text-transform: uppercase;
+    @include atLarge {
+      font-size: 3rem;
+    }
+  }
+}
