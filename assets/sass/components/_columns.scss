@@ -1,0 +1,26 @@
+.columns {
+  margin-top: 5rem;
+  gap: 10rem;
+  display: flex;
+  flex-direction: column;
+  @include atLarge {
+    flex-direction: row;
+  }
+
+  &__25 {
+    width: 25%;
+  }
+
+  &__33 {
+    width: 33%;
+  }
+
+  &__66 {
+    width: 66%;
+  }
+
+  &__center-aligned {
+    display: flex;
+    align-items: center;
+  }
+}

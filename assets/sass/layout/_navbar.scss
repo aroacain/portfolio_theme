@@ -4,22 +4,32 @@
   background-color: $primary;
   @include slideInLeft();
 
+  // Style elements of WP generated menu
   &__menu {
-    display: flex;
-    align-items: center;
-    @include atLarge {
-      max-width: 100rem;
-      margin: auto;
-      flex-direction: row;
+    height: 100%;
+
+    & > div {
       height: 100%;
     }
-  }
 
-  &__element {
-    font-family: $text-font;
-    font-size: 2rem;
-    text-transform: uppercase;
-    color: #fff;
-    padding: 2rem 5rem;
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      @include atLarge {
+        max-width: 100rem;
+        margin: auto;
+        flex-direction: row;
+        height: 100%;
+      }
+    }
+
+    a {
+      font-family: $text-font;
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: #fff;
+      padding: 2rem 5rem;
+    }
   }
 }

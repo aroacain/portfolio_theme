@@ -1,5 +1,6 @@
 .home-hero {
   height: 75vh;
+  min-height: 60rem;
   @include slideInDown($duration: 1.4s);
 
   &__circle {
@@ -7,12 +8,14 @@
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50rem;
+    background-color: $secondary;
 
     @include atLarge {
       width: 50rem;
       height: 50rem;
-      border-radius: 50rem;
-      background-color: $secondary;
     }
   }
 
@@ -45,4 +48,7 @@
       font-size: 3rem;
     }
   }
+}
+
+.about {
 }

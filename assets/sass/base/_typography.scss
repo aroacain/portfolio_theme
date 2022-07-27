@@ -1,1 +1,23 @@
+.section {
+  &__heading {
+    text-align: center;
+    font-family: $header-font;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $primary;
+    @include atLarge {
+      font-size: 3rem;
+    }
+  }
 
+  &__par {
+    font-family: $text-font;
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1.25;
+    @include atLarge {
+      font-size: 2rem;
+    }
+  }
+}
