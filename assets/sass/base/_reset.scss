@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -19,20 +20,4 @@ img {
 
 html {
   font-size: 62.5%; // 1rem = 10px
-
-  @include atSmall {
-    font-size: 75%; // 1rem = 12px
-  }
-
-  @include atMedium {
-    font-size: 87.5%; // 1rem = 14px
-  }
-
-  @include atLarge {
-    font-size: 50%; // 1rem = 8px
-  }
-
-  @include atExtraLarge {
-    font-size: 62.5%; // 1rem = 10px
-  }
 }

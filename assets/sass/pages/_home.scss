@@ -1,52 +1,59 @@
-.home-hero {
-  height: 75vh;
-  min-height: 60rem;
-  @include slideInDown($duration: 1.4s);
+.hero {
+  display: flex;
+  background: url("https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg")
+    no-repeat center;
+  height: 100vh;
+  color: #fff;
+  min-height: 50rem;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+  text-shadow: 2px 2px 4px #7e7a7a;
 
-  &__circle {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
-    width: 20rem;
-    height: 20rem;
-    border-radius: 50rem;
-    background-color: $secondary;
-
-    @include atLarge {
-      width: 50rem;
-      height: 50rem;
-    }
-  }
-
-  &__text {
+  &__container {
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100%;
-    position: relative;
   }
 
-  &__heading {
-    font-family: $header-font;
-    font-size: 5rem;
+  &__content {
+  }
+
+  &__text-1 {
+    font-size: 2.7rem;
+  }
+
+  &__text-2 {
+    font-size: 7.5rem;
+    font-weight: 600;
+    margin-left: -3px;
+  }
+
+  &__text-3 {
+    font-size: 4rem;
+    margin: 0.5rem 0;
+
+    & span {
+      color: $primary;
+      font-weight: 500;
+    }
+  }
+
+  &__btn {
+    display: inline-block;
+    background: $primary;
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 1.2rem 3.6rem;
+    margin-top: 2rem;
     font-weight: 400;
-    color: $primary;
-    @include pulse($delay: 1.5s, $duration: 1.3s);
-
-    @include atLarge {
-      font-size: 15rem;
-    }
+    border-radius: 6px;
+    border: 2px solid $primary;
+    transition: all 0.3s ease;
   }
 
-  &__subheading {
-    font-family: $text-font;
-    font-weight: 300;
-    text-transform: uppercase;
-    @include atLarge {
-      font-size: 3rem;
-    }
+  &__btn:hover {
+    color: $primary;
+    background: none;
   }
 }
 

@@ -1,19 +1,26 @@
 class AnimateOnScroll {
   constructor() {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        const square = entry.target.querySelector(".animate");
+    this.navbar = document.querySelector(".navbar");
+    this.y = window.pageYOffset;
+    this.events();
+  }
 
-        if (entry.isIntersecting) {
-          square.classList.add("animate--active");
-          return; // if we added the class, exit the function
-        }
+  events() {
+    console.log(window.scrollY);
+    window.addEventListener("scroll", () => this.changeColor());
+  }
 
-        // We're not intersecting, so remove the class!
-        square.classList.remove("animate--active");
-      });
-    });
-    observer.observe(document.querySelector(".animate--wrapper"));
+  changeColor() {
+    console.log("I ran");
+    ("use strict");
+    if (
+      document.body.scrollTop >= 20 ||
+      document.documentElement.scrollTop >= 20
+    ) {
+      this.navbar.classList.add("navbar__sticky");
+    } else {
+      this.navbar.classList.remove("navbar__sticky");
+    }
   }
 }
 

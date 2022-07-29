@@ -1,15 +1,5 @@
-.container {
-  margin: 3rem;
-  @include atLarge {
-    margin: 10rem auto;
-    max-width: 120rem;
-  }
-
-  //   Shapes
-
-  &__circle {
-    aspect-ratio: 1;
-    border-radius: 20rem;
-    object-position: top;
-  }
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
 }
