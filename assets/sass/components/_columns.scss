@@ -1,14 +1,16 @@
 .columns {
   margin-top: 5rem;
-  gap: 10rem;
+  gap: 5rem;
   display: flex;
   flex-direction: column;
   @include atLarge {
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
   &__25 {
-    width: 25%;
+    width: 20%;
   }
 
   &__33 {
@@ -21,6 +23,12 @@
 
   &__center-aligned {
     display: flex;
+    align-items: center;
+  }
+
+  &__center-justified {
+    display: flex;
+    flex-direction: column;
     align-items: center;
   }
 }

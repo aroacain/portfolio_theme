@@ -11,6 +11,19 @@
     }
   }
 
+  &__subheading {
+    text-align: center;
+    font-family: $header-font;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $secondary-dark;
+    @include atLarge {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+
   &__par {
     font-family: $text-font;
     font-size: 1.5rem;
@@ -19,5 +32,10 @@
     @include atLarge {
       font-size: 2rem;
     }
+  }
+
+  // Modifiers
+  &--center {
+    text-align: center;
   }
 }

@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "wp-scripts build assets/js/index.js",
-    "dev": "wp-scripts start",
-    "devFast": "wp-scripts start",
+    "watch": "wp-scripts start assets/js/index.js",
+    "dev": "wp-scripts build assets/js/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

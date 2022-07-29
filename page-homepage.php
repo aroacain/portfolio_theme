@@ -24,21 +24,84 @@
     <div class="container">
         <h1 class="section__heading">About Me</h1>
         <div class="columns">
-            <div class="columns__33">
+            <div class="columns__25">
                 <img class="container__circle" src="<?php echo get_theme_file_uri('/assets/img/Aroa1.jpg')?>" alt="">
             </div>
             <div class="columns__66 columns__center-aligned">
-                <p class="section__par">Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit
-                    tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue. Lorem ipsum
-                    dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna
-                    aliqua. Me non paenitet nullum festiviorem excogitasse ad hoc. Ambitioni dedisse scripsisse
-                    iudicaretur. Unam incolunt Belgae, aliam Aquitani, tertiam. Morbi fringilla convallis sapien, id
-                    pulvinar odio volutpat. A communi observantia non est recedendum.</p>
+                <p class="section__par">Hi! My name is Aroa (in case you're wondering, it's pronounced <i>ah-row-ah</i>)
+                    and I am a web developer. I am based in Malaga (Spain) and
+                    Raleigh (North Carolina). I specialize in developing custom Wordpress websites, themes and
+                    plugins. I am fully bilingual English/Spanish.
+                </p>
             </div>
         </div>
     </div>
 </section>
+<section class="skills utility__bb">
+    <div class="container">
+        <h1 class="section__heading">My Skills</h1>
+        <div class="columns">
+            <div class="columns__25 columns__center-justified">
+                <div class="circle skills__wp">
+                    <div class="circle__inner"></div>
+                </div>
+                <h2 class="section__subheading">HTML5</h2>
+                <p class="section__par">Proficient in HTML5, including the use of semantic HTML to create accessible
+                    websites.</p>
+            </div>
+            <div class="columns__25 columns__center-justified">
+                <div class="circle skills__wp">
+                    <div class="circle__inner"></div>
+                </div>
+                <h2 class="section__subheading">CSS/SCSS</h2>
+                <p class="section__par">Proficient in CSS3 and SCSS, including methodologies such as BEM.</p>
+            </div>
+            <div class="columns__25 columns__center-justified">
+                <div class="circle skills__wp">
+                    <div class="circle__inner"></div>
+                </div>
+                <h2 class="section__subheading">Wordpress</h2>
+                <p class="section__par">Extensive knowledge of the Wordpress code base, including theme and plugin
+                    development.
+                </p>
+            </div>
+            <div class="columns__25 columns__center-justified">
+                <div class="circle skills__wp">
+                    <div class="circle__inner"></div>
+                </div>
+                <h2 class="section__subheading">PHP</h2>
+                <p class="section__par">Good knowledge and experience with PHP to create Wordpress sites and maintain
+                    Laravel sites.
+                </p>
+            </div>
+            <div class="columns__25 columns__center-justified">
+                <div class="circle skills__wp">
+                    <div class="circle__inner"></div>
+                </div>
+                <h2 class="section__subheading">Javascript</h2>
+                <p class="section__par">Good working knowledge of Javascript for manipulating the DOM and working with
+                    APIs.
+                </p>
+            </div>
+            <div class="columns__25 columns__center-justified">
+                <div class="circle skills__wp">
+                    <div class="circle__inner"></div>
+                </div>
+                <h2 class="section__subheading">NPM</h2>
+                <p class="section__par">Proficient in the use of NPM for compiling and as a development tool.</p>
+            </div>
+            <div class="columns__25 columns__center-justified">
+                <div class="circle skills__wp">
+                    <div class="circle__inner"></div>
+                </div>
+                <h2 class="section__subheading">Git</h2>
+                <p class="section__par">Experience using Git as a collaboration tool and for automatic deployment of
+                    sites using hooks.</p>
+            </div>
+        </div>
+    </div>
 
+</section>
 <?php
     get_footer();
 ?>

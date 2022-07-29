@@ -50,5 +50,8 @@
   }
 }
 
-.about {
+.skills {
+  &__wp {
+    @include circle-per(85%);
+  }
 }
