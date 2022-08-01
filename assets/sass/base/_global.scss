@@ -1,3 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: $background;
+}
+
+section {
+  padding: 10rem 0;
 }

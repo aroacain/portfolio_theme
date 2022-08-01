@@ -1,64 +1,93 @@
-.hero {
-  display: flex;
-  background: url("https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg")
-    no-repeat center;
-  height: 100vh;
-  color: #fff;
-  min-height: 50rem;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: "Ubuntu", sans-serif;
-  text-shadow: 2px 2px 4px #7e7a7a;
-
-  &__container {
-    width: 100%;
-    display: flex;
-  }
-
+.about {
   &__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  &__text-1 {
-    font-size: 2.7rem;
-  }
+  &__column-left {
+    width: 45%;
 
-  &__text-2 {
-    font-size: 7.5rem;
-    font-weight: 600;
-    margin-left: -3px;
-  }
-
-  &__text-3 {
-    font-size: 4rem;
-    margin: 0.5rem 0;
-
-    & span {
-      color: $primary;
-      font-weight: 500;
+    img {
+      height: 40rem;
+      width: 40rem;
+      object-fit: cover;
+      border-radius: 6px;
     }
   }
 
-  &__btn {
-    display: inline-block;
-    background: $primary;
-    color: #fff;
-    font-size: 2.5rem;
-    padding: 1.2rem 3.6rem;
-    margin-top: 2rem;
-    font-weight: 400;
-    border-radius: 6px;
-    border: 2px solid $primary;
-    transition: all 0.3s ease;
+  &__column-right {
+    width: 55%;
   }
 
-  &__btn:hover {
-    color: $primary;
+  & .about-content .left & .about-content .right p {
+    text-align: justify;
+  }
+  & .about-content .right a {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+  }
+  & .about-content .right a:hover {
+    color: crimson;
     background: none;
   }
 }
 
 .skills {
+  background: $background-dark;
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  // Skill percentages
+
   &__wp {
-    @include circle-per(85%);
+    @include circle-per(75%);
+  }
+
+  &__html {
+    @include circle-per(95%);
+  }
+
+  &__css {
+    @include circle-per(90%);
+  }
+
+  &__php {
+    @include circle-per(70%);
+  }
+
+  &__js {
+    @include circle-per(70%);
+  }
+
+  &__npm {
+    @include circle-per(90%);
+  }
+
+  &__git {
+    @include circle-per(80%);
+  }
+}
+
+.work {
+  background: $background-dark;
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
   }
 }

@@ -13,15 +13,19 @@
 @import "base/animations";
 @import "base/utilities";
 @import "base/global";
+@import "base/vendor";
 
 @import "layout/header";
 @import "layout/footer";
 @import "layout/navbar";
+@import "layout/hero";
 
 @import "components/btn";
 @import "components/columns";
 @import "components/containers";
 @import "components/circle";
+@import "components/card";
+@import "components/scroll-up-btn";
 
 @import "pages/home";
 @import "pages/coming-soon";

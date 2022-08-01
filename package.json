@@ -15,6 +15,7 @@
     "@glidejs/glide": "^3.4.1",
     "@wordpress/icons": "^7.0.1",
     "@wordpress/scripts": "*",
-    "animate-scss": "^3.2.1"
+    "animate-scss": "^3.2.1",
+    "typed.js": "^2.0.12"
   }
 }
