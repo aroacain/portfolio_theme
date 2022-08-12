@@ -209,6 +209,11 @@
     </div>
 </section>
 
+<!-- Contact form -->
+<section class="contact" id="contact">
+    <?php echo apply_shortcodes( '[contact-form-7 id="22" title="Contact form 1"]' ); ?>
+</section>
+
 <!-- Scroll up button -->
 <div class="scroll-up-btn show">
     <i class="fas fa-angle-up"></i>
