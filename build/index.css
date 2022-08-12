@@ -560,7 +560,7 @@
     margin-bottom: 1rem;
   }
 }
-.typo__par, .contact .wpcf7-text,
+.typo__par, .contact .wpcf-resonse-output, .contact .wpcf7-text,
 .contact .wpcf7-textarea, .contact label, .btn__small, .contact .wpcf7-submit {
   font-family: "Open Sans", sans-serif;
   font-size: 2.5rem;
@@ -570,7 +570,7 @@
   text-align: justify;
 }
 @media (min-width: 1024px) {
-  .typo__par, .contact .wpcf7-text,
+  .typo__par, .contact .wpcf-resonse-output, .contact .wpcf7-text,
 .contact .wpcf7-textarea, .contact label, .btn__small, .contact .wpcf7-submit {
     font-size: 2rem;
   }
@@ -1120,6 +1120,10 @@ footer span a:hover {
   outline: none;
   padding: 0.5rem;
   transition: all 0.3s ease;
+}
+.contact .wpcf-resonse-output {
+  border-color: #c9eee8;
+  border-radius: 5px;
 }
 
 .about__content {
