@@ -179,7 +179,7 @@
         <div class="work__container">
             <div class="card">
                 <div class="card__box">
-                    <a href="https://aroacain.github.io/The-Beer-Academy/"><img
+                    <a href="https://aroacain.github.io/The-Beer-Academy/" target="_blank"><img
                             src="<?php echo get_theme_file_uri('/assets/img/2.png') ?>" alt=""></a>
                     <h2 class="typo__subheading typo--white">The Beer Academy</h2>
                     <p class="typo__par typo--white">Product landing page created with HTML and vanilla CSS.</p>
@@ -188,7 +188,7 @@
 
             <div class="card">
                 <div class="card__box">
-                    <a href="https://aroacain.github.io/simonGame/"><img
+                    <a href="https://aroacain.github.io/simonGame/" target="_blank"><img
                             src="<?php echo get_theme_file_uri('/assets/img/3.png') ?>" alt=""></a>
                     <h2 class="typo__subheading typo--white">Simon Game</h2>
                     <p class="typo__par typo--white">Simon memory game created with Javascript and jQuery.</p>
@@ -197,7 +197,7 @@
 
             <div class="card">
                 <div class="card__box">
-                    <a href="https://aroacain.github.io/tailwind-porfolio/"><img
+                    <a href="https://aroacain.github.io/tailwind-porfolio/" target="_blank"><img
                             src="<?php echo get_theme_file_uri('/assets/img/1.png') ?>" alt=""></a>
                     <h2 class="typo__subheading typo--white">Tailwind Portfolio</h2>
                     <p class="typo__par typo--white">Portfolio created with Tailwind.</p>
@@ -217,7 +217,7 @@
 <!-- footer section start -->
 <footer>
     <span>Created By Aroa Cain</a> | <span class="far fa-copyright"></span>
-        2022 All rights reserved.</span>
+        <?php echo date("Y"); ?> All rights reserved.</span>
 </footer>
 
 <?php
