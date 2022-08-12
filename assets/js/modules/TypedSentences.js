@@ -4,28 +4,30 @@ class TypedSentences {
   constructor() {
     var typed = new Typed(".typing", {
       strings: [
-        "PHP.",
         "Wordpress.",
         "CSS.",
         "Wordpress themes.",
+        "PHP.",
         "Wordpress plugins.",
       ],
       typeSpeed: 100,
       backSpeed: 60,
+      backDelay: 1000,
       loop: true,
     });
 
     var typed2 = new Typed(".typing-2", {
       strings: [
-        "PHP",
         "Wordpress",
         "Full Stack",
         "Plugin",
         "Theme",
+        "PHP",
         "bilingual",
       ],
-      typeSpeed: 200,
+      typeSpeed: 100,
       backSpeed: 60,
+      backDelay: 1000,
       loop: true,
     });
   }

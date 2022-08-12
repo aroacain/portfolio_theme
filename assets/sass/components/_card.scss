@@ -1,11 +1,15 @@
 .card {
-  width: calc(33% - 20px);
   background: $background-darkish;
   text-align: center;
   border-radius: 6px;
   padding: 50px 25px;
   cursor: pointer;
   transition: all 0.3s ease;
+  width: 100%;
+
+  @include atLarge {
+    width: calc(33% - 20px);
+  }
 
   &__box {
     transition: all 0.3s ease;

@@ -4,10 +4,18 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+    @include atLarge {
+      flex-direction: row;
+    }
   }
 
   &__column-left {
-    width: 45%;
+    width: 100%;
+    @include atLarge {
+      width: 45%;
+    }
 
     img {
       height: 40rem;
@@ -18,7 +26,10 @@
   }
 
   &__column-right {
-    width: 55%;
+    width: 100%;
+    @include atLarge {
+      width: 55%;
+    }
   }
 
   & .about-content .left & .about-content .right p {
@@ -49,6 +60,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    flex-direction: column;
+    @include atLarge {
+      flex-direction: row;
+    }
   }
 
   // Skill percentages

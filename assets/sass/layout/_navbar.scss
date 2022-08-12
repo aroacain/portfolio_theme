@@ -17,7 +17,11 @@
     color: #fff;
     font-size: 3.5rem;
     font-weight: 600;
-    padding-left: 5rem;
+    margin: 0 auto;
+    @include atLarge {
+      padding-left: 5rem;
+      margin: 0;
+    }
   }
 
   &__sticky {
@@ -34,7 +38,11 @@
 
   // Style elements of WP generated menu
   &__menu {
-    height: 100%;
+    display: none;
+    @include atLarge {
+      display: block;
+      height: 100%;
+    }
 
     & > div {
       height: 100%;

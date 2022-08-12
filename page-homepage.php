@@ -12,7 +12,7 @@
 
 <!-- navbar start -->
 <nav class="navbar">
-    <div><a href="#" class="navbar__logo">Aroa Cain</a></div>
+    <a href="#" class="navbar__logo">Aroa Cain</a>
     <div class="navbar__menu">
         <?php
               wp_nav_menu(array(

@@ -68,15 +68,17 @@ __webpack_require__.r(__webpack_exports__);
 class TypedSentences {
   constructor() {
     var typed = new (typed_js__WEBPACK_IMPORTED_MODULE_0___default())(".typing", {
-      strings: ["PHP.", "Wordpress.", "CSS.", "Wordpress themes.", "Wordpress plugins."],
+      strings: ["Wordpress.", "CSS.", "Wordpress themes.", "PHP.", "Wordpress plugins."],
       typeSpeed: 100,
       backSpeed: 60,
+      backDelay: 1000,
       loop: true
     });
     var typed2 = new (typed_js__WEBPACK_IMPORTED_MODULE_0___default())(".typing-2", {
-      strings: ["PHP", "Wordpress", "Full Stack", "Plugin", "Theme", "bilingual"],
-      typeSpeed: 200,
+      strings: ["Wordpress", "Full Stack", "Plugin", "Theme", "PHP", "bilingual"],
+      typeSpeed: 100,
       backSpeed: 60,
+      backDelay: 1000,
       loop: true
     });
   }
