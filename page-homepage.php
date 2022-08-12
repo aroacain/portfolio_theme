@@ -211,7 +211,11 @@
 
 <!-- Contact form -->
 <section class="contact" id="contact">
-    <?php echo apply_shortcodes( '[contact-form-7 id="22" title="Contact form 1"]' ); ?>
+    <div class="max-width">
+        <h2 class="typo__title">Contact Me</h2>
+        <?php echo apply_shortcodes( '[contact-form-7 id="22" title="Contact form 1"]' ); ?>
+        <!-- <?php echo apply_shortcodes( '[contact-form-7 id="18" title="Contact form 1"]' ); ?> -->
+    </div>
 </section>
 
 <!-- Scroll up button -->

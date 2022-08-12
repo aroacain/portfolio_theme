@@ -560,7 +560,8 @@
     margin-bottom: 1rem;
   }
 }
-.typo__par {
+.typo__par, .contact .wpcf7-text,
+.contact .wpcf7-textarea, .contact label, .btn__small, .contact .wpcf7-submit {
   font-family: "Open Sans", sans-serif;
   font-size: 2.5rem;
   font-weight: 200;
@@ -569,7 +570,8 @@
   text-align: justify;
 }
 @media (min-width: 1024px) {
-  .typo__par {
+  .typo__par, .contact .wpcf7-text,
+.contact .wpcf7-textarea, .contact label, .btn__small, .contact .wpcf7-submit {
     font-size: 2rem;
   }
 }
@@ -667,121 +669,6 @@ section {
 /*typed cursors*/
 .typed-cursor {
   color: #2f5061;
-}
-
-/* contact section styling */
-.contact .title::after {
-  content: "get in touch";
-}
-
-.contact .contact-content .column {
-  width: calc(50% - 30px);
-}
-
-.contact .contact-content .text {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.contact .contact-content .left p {
-  text-align: justify;
-}
-
-.contact .contact-content .left .icons {
-  margin: 10px 0;
-}
-
-.contact .contact-content .row {
-  display: flex;
-  height: 65px;
-  align-items: center;
-}
-
-.contact .contact-content .row .info {
-  margin-left: 30px;
-}
-
-.contact .contact-content .row i {
-  font-size: 25px;
-  color: crimson;
-}
-
-.contact .contact-content .info .head {
-  font-weight: 500;
-}
-
-.contact .contact-content .info .sub-title {
-  color: #333;
-}
-
-.contact .right form .fields {
-  display: flex;
-}
-
-.contact .right form .field,
-.contact .right form .fields .field {
-  height: 45px;
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-.contact .right form .textarea {
-  height: 80px;
-  width: 100%;
-}
-
-.contact .right form .name {
-  margin-right: 10px;
-}
-
-.contact .right form .field input,
-.contact .right form .textarea textarea {
-  height: 100%;
-  width: 100%;
-  border: 1px solid lightgrey;
-  border-radius: 6px;
-  outline: none;
-  padding: 0 15px;
-  font-size: 17px;
-  font-family: "Poppins", sans-serif;
-  transition: all 0.3s ease;
-}
-
-.contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus {
-  border-color: #b3b3b3;
-}
-
-.contact .right form .textarea textarea {
-  padding-top: 10px;
-  resize: none;
-}
-
-.contact .right form .button-area {
-  display: flex;
-  align-items: center;
-}
-
-.right form .button-area button {
-  color: #fff;
-  display: block;
-  width: 160px !important;
-  height: 45px;
-  outline: none;
-  font-size: 18px;
-  font-weight: 500;
-  border-radius: 6px;
-  cursor: pointer;
-  flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
-  transition: all 0.3s ease;
-}
-
-.right form .button-area button:hover {
-  color: crimson;
-  background: none;
 }
 
 /* footer section styling */
@@ -1092,6 +979,22 @@ footer span a:hover {
   background: none;
 }
 
+.btn__small, .contact .wpcf7-submit {
+  display: inline-block;
+  background: #ff8882;
+  color: #fff;
+  padding: 1.2rem 3.6rem;
+  margin-top: 2rem;
+  border-radius: 6px;
+  border: 2px solid #ff8882;
+  transition: all 0.3s ease;
+  text-shadow: none;
+}
+.btn__small:hover, .contact .wpcf7-submit:hover {
+  color: #ff8882;
+  background: none;
+}
+
 .columns {
   margin-top: 5rem;
   gap: 5rem;
@@ -1204,6 +1107,19 @@ footer span a:hover {
 
 .scroll-up-btn:hover {
   filter: brightness(90%);
+}
+
+/* contact section styling */
+.contact .wpcf7-text,
+.contact .wpcf7-textarea {
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  margin: 1rem 0rem;
+  outline: none;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
 }
 
 .about__content {
