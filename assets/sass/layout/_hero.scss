@@ -44,9 +44,17 @@
     font-size: 4rem;
     margin: 0.5rem 0;
 
-    & span {
-      color: $primary;
+    &-static {
+      display: block;
+      color: #fff;
       font-weight: 500;
+      @include atLarge {
+        display: inline-block;
+      }
+    }
+
+    & .typing {
+      color: $primary;
     }
 
     & .typed-cursor {

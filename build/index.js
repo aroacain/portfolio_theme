@@ -71,14 +71,14 @@ class TypedSentences {
       strings: ["Wordpress.", "CSS.", "Wordpress themes.", "PHP.", "Wordpress plugins."],
       typeSpeed: 100,
       backSpeed: 60,
-      backDelay: 1000,
+      backDelay: 1500,
       loop: true
     });
     var typed2 = new (typed_js__WEBPACK_IMPORTED_MODULE_0___default())(".typing-2", {
       strings: ["Wordpress", "Full Stack", "Plugin", "Theme", "PHP", "bilingual"],
       typeSpeed: 100,
       backSpeed: 60,
-      backDelay: 1000,
+      backDelay: 1500,
       loop: true
     });
   }

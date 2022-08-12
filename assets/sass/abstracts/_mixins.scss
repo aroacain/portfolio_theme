@@ -1,7 +1,7 @@
 // Breakpoints
 
 @mixin atSmall {
-  @media (min-width: 480px) {
+  @media (min-width: 500px) {
     @content;
   }
 }

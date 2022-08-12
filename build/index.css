@@ -971,9 +971,18 @@ footer span a:hover {
   font-size: 4rem;
   margin: 0.5rem 0;
 }
-.hero__text-3 span {
-  color: #ff8882;
+.hero__text-3-static {
+  display: block;
+  color: #fff;
   font-weight: 500;
+}
+@media (min-width: 1200px) {
+  .hero__text-3-static {
+    display: inline-block;
+  }
+}
+.hero__text-3 .typing {
+  color: #ff8882;
 }
 .hero__text-3 .typed-cursor {
   color: #fff;

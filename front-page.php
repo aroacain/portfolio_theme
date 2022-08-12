@@ -34,7 +34,9 @@
         <div class="hero__content">
             <div class="hero__text-1">Hello, my name is</div>
             <div class="hero__text-2">Aroa Cain</div>
-            <div class="hero__text-3">I can help you with <span class="typing">PHP</span></div>
+            <div class="hero__text-3"><span class="hero__text-3-static">I can help you with </span><span
+                    class="typing"></span>
+            </div>
             <a class="hero__btn" href="#">Let's talk!</a>
         </div>
     </div>
@@ -49,7 +51,7 @@
                 <img src="<?php echo get_theme_file_uri('/assets/img/AroaCain.jpg') ?>" alt="">
             </div>
             <div class="about__column-right">
-                <div class="typo__subheading">I'm Aroa and I'm a <span class="typing-2 typo--primary">PHP</span>
+                <div class="typo__subheading">I'm Aroa and I'm a <span class="typing-2 typo--primary"></span>
                     developer</div>
                 <p class="typo__par">Hi! My name is Aroa (in case you're wondering, it's pronounced <i>ah-row-ah</i>)
                     and I am a web developer. I am based in Malaga (Spain) and

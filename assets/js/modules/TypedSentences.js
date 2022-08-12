@@ -12,7 +12,7 @@ class TypedSentences {
       ],
       typeSpeed: 100,
       backSpeed: 60,
-      backDelay: 1000,
+      backDelay: 1500,
       loop: true,
     });
 
@@ -27,7 +27,7 @@ class TypedSentences {
       ],
       typeSpeed: 100,
       backSpeed: 60,
-      backDelay: 1000,
+      backDelay: 1500,
       loop: true,
     });
   }
