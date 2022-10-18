@@ -654,6 +654,10 @@ section {
   padding: 10rem 0;
 }
 
+.rc-anchor-invisible {
+  display: none;
+}
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
   width: 10px;
@@ -1180,7 +1184,7 @@ footer span a:hover {
 }
 @media (min-width: 1200px) {
   .about__column-left {
-    width: 45%;
+    width: 40%;
   }
 }
 .about__column-left img {
@@ -1315,6 +1319,17 @@ footer span a:hover {
   }
   100% {
     background-image: conic-gradient(#00c4cc 80%, #c9eee8 0);
+  }
+}
+.skills__react {
+  background-image: conic-gradient(#00c4cc 40%, #c9eee8 0);
+}
+@keyframes rotate {
+  0% {
+    background-image: conic-gradient(#00c4cc 0, #c9eee8 0);
+  }
+  100% {
+    background-image: conic-gradient(#00c4cc 40%, #c9eee8 0);
   }
 }
 

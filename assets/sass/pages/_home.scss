@@ -14,7 +14,7 @@
   &__column-left {
     width: 100%;
     @include atLarge {
-      width: 45%;
+      width: 40%;
     }
 
     img {
@@ -94,6 +94,10 @@
 
   &__git {
     @include circle-per(80%);
+  }
+
+  &__react {
+    @include circle-per(40%);
   }
 }
 

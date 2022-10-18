@@ -34,10 +34,10 @@
         <div class="hero__content">
             <div class="hero__text-1">Hello, my name is</div>
             <div class="hero__text-2">Aroa Cain</div>
-            <div class="hero__text-3"><span class="hero__text-3-static">I can help you with </span><span
+            <div class="hero__text-3"><span class="hero__text-3-static">I can help you with </span> <span
                     class="typing"></span>
             </div>
-            <a class="hero__btn" href="#">Let's talk!</a>
+            <a class="hero__btn" href="#contact">Let's talk!</a>
         </div>
     </div>
 </section>
@@ -123,6 +123,18 @@
                     <p class="typo__par typo--white">Good working knowledge of Javascript for manipulating the DOM and
                         working with
                         APIs.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__box">
+                    <div class="circle skills__react">
+                        <div class="circle__inner"></div>
+                    </div>
+                    <h2 class="typo__subheading typo--white">React</h2>
+                    <p class="typo__par typo--white">Experience using react for the creation of Wordpress blocks and for
+                        simple web apps.
+                    </p>
                 </div>
             </div>
 
