@@ -1,7 +1,10 @@
 <?php
-    get_header();
-?>
-Hello World!
-<?php
-    get_footer();
-?>
+get_header();
+
+  while(have_posts()) {
+    the_post();
+  }
+
+  the_content();
+
+get_footer();
